@@ -1,0 +1,12 @@
+.harta{
+    width:30%;
+    height: 30%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:3px solid #6b5555;
+       
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}

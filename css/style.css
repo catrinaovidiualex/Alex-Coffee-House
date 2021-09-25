@@ -1,0 +1,301 @@
+/*pentru mobile*/
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
+
+p{
+  color:black;
+}
+.tlogo{
+  width:70px;
+  height:70px;
+}
+
+
+body {
+  background-color: #e4e4e4;
+  background-size: cover;
+  width:100%;
+  background-attachment: fixed;
+  color: #e71616;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0;
+}
+
+.mainsection{
+  background-color: #282726;
+  
+
+}
+
+header{
+  background-color:#282726;
+  color:white;
+  display:flex;
+  text-align: center;
+  font-size: 18px;
+  
+}
+header h1 {
+  font-size: 15px;
+  text-align: center;
+ 
+}
+header ul {
+  color: white;
+  font-size: 13px;
+  display:grid;
+  margin-left:35%;
+  list-style-type: none;
+   
+
+}
+header li {
+  text-decoration:none;
+  color: white;
+}
+
+header li:active {
+  background-color: rgb(224, 121, 36);
+}
+
+header a {
+  color: white;
+  font-weight:bold;
+  font-size: 17px;
+}
+
+.section-bestcoffee{
+  color:black;
+}
+.section-bestcoffee h1{
+  font-size: 25px;
+  color:black;
+  font-family: 'Fredericka the Great', cursive;
+ 
+  
+
+  
+  
+}
+
+.section-bestcoffee h2{
+  font-size: 20px;
+  color:rgb(65, 26, 26);
+  font-family: 'Monoton', cursive;
+  margin:10px;
+  word-spacing: 10px;
+
+  
+  
+}
+.section-bestcoffee p{
+  
+  font-size: 16px;
+  
+  color:rgb(36, 27, 27);
+  font-family: 'Noto Serif JP', serif;
+
+
+
+
+
+ 
+
+}
+
+.img-circle{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(116, 103, 103);
+
+  padding: 5px;
+
+}
+.tasteit{
+  font-size: 22px;
+  color:rgb(65, 26, 26);
+  font-family: 'Monoton', cursive;
+  margin:10px;
+  word-spacing: 10px;
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+}
+
+.animatie {
+  padding:10px;
+}
+
+.popularitems h2{
+  font-size: 20px;
+  color:rgb(65, 26, 26);
+  font-family: 'Monoton', cursive;
+  margin:10px;
+  word-spacing: 10px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.popularitems h3{
+  font-size: 20px;
+  color:rgb(155, 113, 113);
+  font-family: 'Monoton', cursive;
+  margin:10px;
+  word-spacing: 10px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.popularitems p{
+
+  font-size: 16px;
+  
+  color:rgb(36, 27, 27);
+  font-family: 'Noto Serif JP', serif;
+        
+  
+}
+
+.img-americano{
+  width:200px;
+  height: 150px;
+  border: 2px solid rgb(116, 103, 103);
+  border-radius: 5px;
+  padding: 5px;
+  
+
+}
+.img-capuccino{
+  width:200px;
+  height: 150px;
+  border: 2px solid rgb(116, 103, 103);
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.img-mochacino{
+  width:200px;
+  height: 150px;
+  border: 2px solid rgb(116, 103, 103);
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+footer{
+  background-color:#282726 ;
+  width: 100%;
+  height: 120px;
+  max-height: 150px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  
+  margin-left:10px;
+ 
+  margin-top:10px;
+  
+  
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #6b5555;
+  color: white;
+}
+
+
+
+.fa-google {
+  background: #6b5555;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #6b5555;
+  color: white;
+}
+
+.fa-youtube {
+  background: #6b5555;
+  color: white;
+}
+
+footer p {
+  font-size: 15px;
+  color:white;
+  text-align: center;
+  margin-top:50px;
+}
+
+/*pentru tableta*/
+
+@media(min-width:720px){
+
+  header ul{
+
+    
+    display:grid;
+    margin:auto;
+    margin-left:50%;
+}
+
+.popularitems{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+
+.img-circle{
+  
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(116, 103, 103);
+
+  padding: 5px;
+
+}
+
+
+}
+
+
+@media(min-width:920px){
+
+  .popularitems{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin:none;
+    
+  }
+
+
+}
+
+
+
+
+
